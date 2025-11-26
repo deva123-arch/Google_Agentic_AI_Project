@@ -56,7 +56,7 @@ It functions as a personalized tutor that can summarize content, explain topics,
 
 Run the following command in your terminal:
 
-```bash pip install google-generativeai python-dotenv   ```
+```  pip install google-generativeai python-dotenv   ```
 
 _Alternatively, you can create a requirements.txt file (see below) and run pip install -r requirements.txt._
 
@@ -64,7 +64,7 @@ _Alternatively, you can create a requirements.txt file (see below) and run pip i
 
 Create a .env file in your project root folder and add your API key:
 
-```bash GEMINI_API_KEY=YOUR_API_KEY_HERE   ```
+```  GEMINI_API_KEY=YOUR_API_KEY_HERE   ```
 
 > **Security Note:** Your key stays private and is never hard-coded inside the Python script.
 
@@ -72,11 +72,11 @@ Create a .env file in your project root folder and add your API key:
 --------------------------
 
 Run the main script:
-```bash
+``` 
 python study_agent.py 
 ```
 You will see the welcome screen:
-```bash  ======================================     STUDY ASSISTANT AI (Gemini Only)     ======================================  Type 'menu' to see options, 'exit' to quit.   ```
+```   ======================================     STUDY ASSISTANT AI (Gemini Only)     ======================================  Type 'menu' to see options, 'exit' to quit.   ```
 
 🧩 Usage Commands (Menu System)
 -------------------------------
@@ -126,13 +126,13 @@ Inside the app, type menu to see the options:
 -----------------
 
 **If API key is missing:**
-```bash
+``` 
 ❗ ERROR: Gemini API key not found in .env  Please add: GEMINI_API_KEY=xxxxx to your .env file
 ```
 
 **If Gemini API connection fails:**
 
-```bash
+``` 
     [ERROR contacting Gemini API: ...]
 ```
 
@@ -155,7 +155,7 @@ Inside the app, type menu to see the options:
 
 To replicate this environment, your requirements.txt should contain:
 
-```bash   google-generativeai  python-dotenv   ```
+```    google-generativeai  python-dotenv   ```
 
 ⭐ Future Enhancements
 ---------------------
