@@ -87,19 +87,19 @@ Inside the app, type menu to see the options:
 
 **Action**
 
-**1** Summarize text
+**1.** Summarize text
 
-**2** Explain topic
+**2.** Explain topic
 
-**3** Generate quiz
+**3.** Generate quiz
 
-**4** Create flashcards
+**4.** Create flashcards
 
-**5** Study plan
+**5.** Study plan
 
-**6** Motivation
+**6.** Motivation
 
-**7** Chat with AI
+**7.** Chat with AI
 
 **menu** - Show options
 
@@ -155,7 +155,7 @@ Inside the app, type menu to see the options:
 
 To replicate this environment, your requirements.txt should contain:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   google-generativeai  python-dotenv   `
+```bash   google-generativeai  python-dotenv   ```
 
 ⭐ Future Enhancements
 ---------------------
