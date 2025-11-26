@@ -75,8 +75,9 @@ Run the main script:
 ``` 
 python study_agent.py 
 ```
-You will see the welcome screen:
-```   ======================================     STUDY ASSISTANT AI (Gemini Only)     ======================================  Type 'menu' to see options, 'exit' to quit.   ```
+**You will see the welcome screen:**
+
+```   ======================================    STUDY ASSISTANT AI (Gemini Only)    ======================================  Type 'menu' to see options, 'exit' to quit.   ```
 
 🧩 Usage Commands (Menu System)
 -------------------------------
